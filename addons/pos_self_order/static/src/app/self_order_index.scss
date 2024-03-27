@@ -47,7 +47,7 @@ small {
         @include make-col-ready();
     }
 
-    @include row-cols(1);
+    @include row-cols(2);
 
     @include media-breakpoint-up(sm) {
         @include row-cols(2);
